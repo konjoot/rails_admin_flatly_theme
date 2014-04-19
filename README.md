@@ -1,5 +1,7 @@
 ##RailsAdmin Bootsrap Flatly theme.
 
+![ScreenShot](https://raw.github.com/konjoot/rails_admin_flatly_theme/edit/master/preview.png)
+
 ### Usage
 
 In your `Gemfile`:
