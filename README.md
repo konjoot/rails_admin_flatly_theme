@@ -1,4 +1,4 @@
-#RailsAdmin Bootsrap Flatly theme.
+##RailsAdmin Bootsrap Flatly theme.
 
 ### Usage
 
