@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Flatly theme for rails_admin."
   s.description = "Flatly theme for rails_admin."
 
-  s.files = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
   s.add_dependency "rails", "> 3.1.3"
 
