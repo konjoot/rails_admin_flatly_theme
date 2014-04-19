@@ -1,6 +1,6 @@
 ##RailsAdmin Bootsrap Flatly theme.
 
-![ScreenShot](https://raw.github.com/konjoot/rails_admin_flatly_theme/edit/master/preview.png)
+![ScreenShot](https://raw.github.com/konjoot/rails_admin_flatly_theme/master/preview.png)
 
 ### Usage
 
