@@ -2,7 +2,9 @@
 // Bootswatch 2.3.2
 // --------------------------------------------------
 
-@import "fonts";
+// @import "fonts";
+// @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
+
 // Global values
 // --------------------------------------------------
 
@@ -43,13 +45,13 @@ $linkColorHover:        lighten($linkColor, 5%);
 
 // Typography
 // -------------------------
-$sansFontFamily:        "Didact Gothic", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-$baseFontSize:          17px;
+$baseFontSize:          15px;
 $baseFontFamily:        $sansFontFamily;
-$baseLineHeight:        22px;
+$baseLineHeight:        20px;
 $altFontFamily:         $serifFontFamily;
 
 $headingsFontFamily:    inherit; // empty to use BS default, $baseFontFamily
