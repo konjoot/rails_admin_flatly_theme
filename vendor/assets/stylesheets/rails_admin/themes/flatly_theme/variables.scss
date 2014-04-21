@@ -45,13 +45,13 @@ $linkColorHover:        lighten($linkColor, 5%);
 
 // Typography
 // -------------------------
-$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$sansFontFamily:        proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 $monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
 $baseFontSize:          15px;
 $baseFontFamily:        $sansFontFamily;
-$baseLineHeight:        20px;
+$baseLineHeight:        22px;
 $altFontFamily:         $serifFontFamily;
 
 $headingsFontFamily:    inherit; // empty to use BS default, $baseFontFamily
