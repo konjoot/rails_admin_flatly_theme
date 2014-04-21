@@ -71,6 +71,7 @@ p {
 
   .nav > li > a {
     text-shadow: none;
+    line-height: $baseLineHeight + 4;
   }
 
   .nav > .active > a,
