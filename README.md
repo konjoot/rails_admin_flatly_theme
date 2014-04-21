@@ -9,10 +9,21 @@ In your `Gemfile`:
 gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git', :branch => 'release_1.0'
 ```
 
+Or for last changes:
+
+```ruby
+gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git'
+```
+
+
 Inside `config/application.rb`, just after `Bundler.require`:
 
 ```ruby
 ENV['RAILS_ADMIN_THEME'] = 'flatly_theme'
 ```
+
+Then run `bundle`, `rake assets:clean` and finally `rake assets:precompile`.
+
+
 
 This project distributes under MIT-LICENSE.
