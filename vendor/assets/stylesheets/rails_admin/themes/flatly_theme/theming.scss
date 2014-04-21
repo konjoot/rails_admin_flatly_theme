@@ -321,6 +321,7 @@ div.subnav {
   &.info > td {
     color: $white;
   }
+  input[type="checkbox"] { margin: 0; }
 }
 
 // FORMS
@@ -356,7 +357,6 @@ input[type="color"],
   }
 }
 
-input[type="checkbox"] { margin: 0; }
 
 .input-prepend {
 
