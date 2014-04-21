@@ -8,7 +8,12 @@
 
 // @import url("http://fonts.googleapis.com/css?family=Lato:400,700,900,400italic");
 
-@import url(http://fonts.googleapis.com/css?family=Didact+Gothic&subset=latin,cyrillic);
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('DidactGothic.woff') format('woff');
+}
 
 h1 {
   font-size: 48px;
