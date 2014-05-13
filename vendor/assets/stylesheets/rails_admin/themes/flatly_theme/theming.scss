@@ -645,10 +645,10 @@ legend {
   }
 }
 
-@media (max-width: $minBodyWidth  - 1) {
+@media (max-width: $minBodyWidth - 1) {
   body.rails_admin { min-width: $minBodyWidth }
   .navbar-inner{ min-width: $minNavbarWidth }
 }
 
 //  OTHER RULES
-body.rails_admin { padding-top: $navbarHeight + 20; }
+body.rails_admin { padding-top: $navbarHeight + 20 }
