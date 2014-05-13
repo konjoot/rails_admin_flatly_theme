@@ -603,7 +603,7 @@ legend {
 // MEDIA QUERIES
 // --------------------------------------------------
 
-@media (max-width: 767px) {
+@media (max-width: $gridRowWidth768 - 1) {
 
   div.subnav {
 
@@ -630,7 +630,7 @@ legend {
   }
 }
 
-@media (max-width: 979px) {
+@media (max-width: $navbarCollapseWidth) {
 
   .navbar {
 
@@ -638,11 +638,17 @@ legend {
       color: $white;
 
       &:hover {
-        background-color: $green;
+        color: $green;
+        background-color: $blueDark;
       }
     }
-
   }
 }
 
+@media (max-width: $minBodyWidth  - 1) {
+  body.rails_admin { min-width: $minBodyWidth }
+  .navbar-inner{ min-width: $minNavbarWidth }
+}
+
+//  OTHER RULES
 body.rails_admin { padding-top: $navbarHeight + 20; }
