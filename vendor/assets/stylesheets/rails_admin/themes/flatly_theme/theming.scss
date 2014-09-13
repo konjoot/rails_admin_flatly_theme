@@ -642,6 +642,17 @@ legend {
         background-color: $blueDark;
       }
     }
+    
+    .nav-collapse ul.nav.pull-right {
+      display: table;
+      li {
+        float: none;
+        vertical-align: middle;
+        img{
+          padding: 0 !important;
+        }
+      }
+    }
   }
 }
 
