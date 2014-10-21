@@ -347,7 +347,7 @@ input[type="color"],
   padding: 7px 6px;
   border: 2px solid #dce4ec;
   text-indent: 1px;
-  @include border-radius($inputBorderRadius);
+  border-radius: $inputBorderRadius;
   @include box-shadow(none);
   @include placeholder(#acb6c0);
 
@@ -362,7 +362,7 @@ input[type="color"],
 
   .add-on:first-child,
   .btn:first-child {
-    @include border-radius($inputBorderRadius 0 0 $inputBorderRadius);
+    border-radius: $inputBorderRadius 0 0 $inputBorderRadius;
   }
 }
 
@@ -372,17 +372,17 @@ input[type="color"],
   select,
   .uneditable-input {
 
-    @include border-radius($inputBorderRadius 0 0 $inputBorderRadius);
+    border-radius: $inputBorderRadius 0 0 $inputBorderRadius;
 
     + .btn-group .btn:last-child {
-      @include border-radius(0 $inputBorderRadius $inputBorderRadius 0);
+      border-radius: 0 $inputBorderRadius $inputBorderRadius 0;
     }
   }
 
   .add-on:last-child,
   .btn:last-child,
   .btn-group:last-child > .dropdown-toggle {
-    @include border-radius(0 $inputBorderRadius $inputBorderRadius 0);
+    border-radius: 0 $inputBorderRadius $inputBorderRadius 0;
   }
 }
 
@@ -392,20 +392,20 @@ input[type="color"],
   input,
   select,
   .uneditable-input {
-    @include border-radius(0);
+    border-radius: 0;
     + .btn-group .btn {
-      @include border-radius(0 $inputBorderRadius $inputBorderRadius 0);
+      border-radius: 0 $inputBorderRadius $inputBorderRadius 0;
     }
   }
 
   .add-on:first-child,
   .btn:first-child {
-    @include border-radius($inputBorderRadius 0 0 $inputBorderRadius);
+    border-radius: $inputBorderRadius 0 0 $inputBorderRadius;
   }
 
   .add-on:last-child,
   .btn:last-child {
-    @include border-radius(0 $inputBorderRadius $inputBorderRadius 0);
+    border-radius: 0 $inputBorderRadius $inputBorderRadius 0;
   }
 }
 
@@ -468,7 +468,7 @@ legend {
 
 .form-actions {
   border-top: none;
-  @include border-radius($baseBorderRadius);
+  border-radius: $baseBorderRadius;
   background-color: darken($grayLighter, 5%);
 }
 
@@ -509,7 +509,7 @@ legend {
 
 .badge {
   padding: 6px 10px;
-  @include border-radius($borderRadiusLarge);
+  border-radius: $borderRadiusLarge;
   text-shadow: none;
 }
 
