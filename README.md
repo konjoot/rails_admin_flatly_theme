@@ -5,14 +5,9 @@
 ### Usage
 
 In your `Gemfile`:
-```ruby
-gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git', :branch => 'release_1.0'
-```
-
-Or for last changes:
 
 ```ruby
-gem 'rails_admin_flatly_theme', :git => 'git://github.com/konjoot/rails_admin_flatly_theme.git'
+gem 'rails_admin_flatly_theme', github: 'konjoot/rails_admin_flatly_theme'
 ```
 
 
